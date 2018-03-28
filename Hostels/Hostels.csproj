@@ -161,10 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\Startup.MobileApp.cs" />
-    <Compile Include="Controllers\TodoItemController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="DataObjects\TodoItem.cs" />
-    <Compile Include="Models\MobileServiceContext.cs" />
+    <Compile Include="DataObjects\Damage.cs" />
+    <Compile Include="DataObjects\EmployeePayments.cs" />
+    <Compile Include="DataObjects\Empoyee.cs" />
+    <Compile Include="DataObjects\Room.cs" />
+    <Compile Include="DataObjects\Student.cs" />
+    <Compile Include="DataObjects\StudentPayment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -179,6 +181,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
