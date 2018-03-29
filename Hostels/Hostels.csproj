@@ -183,7 +183,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\Startup.MobileApp.cs" />
+    <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="DataObjects\Damage.cs" />
     <Compile Include="DataObjects\EmployeePayment.cs" />
     <Compile Include="DataObjects\Employee.cs" />
@@ -213,7 +213,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="App_Start\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
