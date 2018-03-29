@@ -7,7 +7,7 @@ namespace Hostels.DataObjects
 {
     public class Room
     {
-        public int  Id { get; set; }
+        public int  ID { get; set; }
         public string RoomName { get; set; }
         public string FloorName { get; set; }
         public string Condition { get; set; }
