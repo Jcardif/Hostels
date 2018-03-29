@@ -29,11 +29,7 @@ namespace Hostels
             {
                 var emp = new List<Employee>
                 {
-                    new Employee { FrstName = "Josh", LastName = "Cardif", Phone = "0723333"},
-                    new Employee { FrstName = "M", LastName = "b", Phone = "072333"},
-                    new Employee { FrstName = "n", LastName = "v", Phone = "07233"},
-                    new Employee { FrstName = "no", LastName = "j", Phone = "023333"},
-                    new Employee { FrstName = "h", LastName = "n", Phone = "072383"},
+                    new Employee { FrstName = "g", LastName = "Cadif", Phone = "0723353"},
 
                 };
                 foreach (var employee in emp)

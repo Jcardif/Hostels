@@ -18,5 +18,6 @@ namespace Hostels.DataObjects
         [Required, MaxLength(10), Column(TypeName = "varchar")]
         public string Phone { get; set; }
         public virtual ICollection<EmployeePayment> EmployeePayments { get; set; }
+        public virtual EmployeeTask EmployeeTasks { get; set; }
     }
 }

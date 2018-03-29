@@ -14,7 +14,7 @@ namespace Hostels.Models
         private static readonly string HostelsConnectionString = ConfigurationManager.ConnectionStrings["HostelsConn"].ConnectionString;
         public HostelsContext():base(HostelsConnectionString)
         {
-            
+           Database.SetInitializer(new MigrateDatabaseToLatestVersion<HostelsContext, Migrations.Configuration>());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
