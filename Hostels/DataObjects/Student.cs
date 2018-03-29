@@ -13,12 +13,11 @@ namespace Hostels.DataObjects
         public string Phone { get; set; }
         public string Email { get; set; }
 
-
-        public int StudentPaymentID { get; set; }
-        public string RoomID { get; set; }
+        
+       // public string RoomID { get; set; }
 
         public Room Room { get; set; }
-        public StudentPayment StudentPayment { get; set; }
+        public ICollection<StudentPayment> StudentPayments { get; set; }
         public ICollection<Damage> Damages { get; set; }
     }
 }

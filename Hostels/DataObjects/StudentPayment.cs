@@ -14,6 +14,7 @@ namespace Hostels.DataObjects
         public double Balance { get; set; }
         public string MpesaTransaction { get; set; }
 
+        public int StudentID { get; set; }
         public virtual Student Students { get; set; }
     }
 }
